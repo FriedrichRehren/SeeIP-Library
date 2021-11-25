@@ -8,7 +8,6 @@
     <RepositoryUrl>https://github.com/FriedrichRehren/SeeIP-Library</RepositoryUrl>
     <PackageProjectUrl>https://seeip.org/</PackageProjectUrl>
     <Authors>Friedrich Rehren</Authors>
-    <Version>1.0.0</Version>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageId>SeeIP</PackageId>
     <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
@@ -16,6 +15,9 @@
     <Copyright>© Friedrich Rehren</Copyright>
     <PackageTags>network,ip</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<Version>1.0.0</Version>
+    <AssemblyVersion>9.9.9.9</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
   </PropertyGroup>
 
 </Project>
