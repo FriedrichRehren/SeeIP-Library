@@ -25,6 +25,12 @@ internal class Exceptions
         internal NetworkUnavailableException(Exception nestedException) : base("The network connection is being reported unavailable by the os.", nestedException) { }
     }
 
+    internal class ParsingException : Exception
+    {
+        internal ParsingException() : base("An error occurred while parsing the ip.") { }
+        internal ParsingException(Exception nestedException) : base("An error occurred while parsing the ip.", nestedException) { }
+    }
+
     internal class UnknownException : Exception
     {
         internal UnknownException() : base("An unknown error occurred during fetching the ip.") { }
