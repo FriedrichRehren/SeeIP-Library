@@ -4,7 +4,7 @@ Please note, that I am in no way associated with the [SeeIP Project](https://see
 ## Installation
 To install the library,
 
-either manually download the DLL from the releases tab [here](/releases/latest) and reference it in your project
+either manually download the DLL from the releases tab [here](https://github.com/FriedrichRehren/SeeIP-Library/releases/latest) and reference it in your project
 
 or downlaod it using NuGet like this:
 
