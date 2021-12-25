@@ -1,5 +1,5 @@
 # SeeIP Library
-Please note, that I am in no way associated with the [SeeIP Project](https://seeip.org/) or it's founding comapny [UNVIO, LLC.](https://unvio.com/).
+Please note, that I am in no way associated with the [SeeIP Project](https://seeip.org/) or it's founding company [UNVIO, LLC.](https://unvio.com/).
 
 ## Installation
 To install the library,

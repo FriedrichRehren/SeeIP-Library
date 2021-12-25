@@ -11,14 +11,14 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageId>SeeIP</PackageId>
 	<Title>SeeIP</Title>
-    <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+    <PackageReleaseNotes>Fixed spelling on ReadMe</PackageReleaseNotes>
 	<Description>A simple library wrapper to use the SeeIP.org API.</Description>
     <Copyright>© Friedrich Rehren</Copyright>
     <PackageTags>network,ip</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-	<Version>1.1.1</Version>
+	<Version>1.1.2</Version>
     <AssemblyVersion>9.9.9.9</AssemblyVersion>
-    <FileVersion>1.1.1.0</FileVersion>
+    <FileVersion>1.1.2.0</FileVersion>
     <RepositoryType>git</RepositoryType>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
