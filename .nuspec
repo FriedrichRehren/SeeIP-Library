@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Static metadata-->
+        <id>SeeIP</id>
+        <title>SeeIP</title>
+        <description>A simple library wrapper to use the SeeIP.org API.</description>
+        <tags>network,ip</tags>
+        <authors>Friedrich Rehren</authors>
+        <copyright>© Friedrich Rehren</copyright>
+        <readme>docs\README.md</readme>        
+        <license type="expression">MIT</license>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <repository type="git" url="https://github.com/FriedrichRehren/SeeIP-Library.git" branch="master" />
+        <projectUrl>https://seeip.org/</projectUrl>
+        <dependencies>
+            <group targetFramework="net6.0">
+            </group>
+            <group targetFramework="netstandard2.0">
+                <dependency id="System.Text.Json" version="6.0.1" />
+            </group>
+        </dependencies>
+        <frameworkAssemblies>
+            <frameworkAssembly assemblyName="System" targetFramework="netstandard2.0" />
+            <frameworkAssembly assemblyName="System.Net" />
+            <frameworkAssembly assemblyName="System.Net.Http" targetFramework="netstandard2.0" />
+            <frameworkAssembly assemblyName="System.Net.NetworkInformation" />
+            <frameworkAssembly assemblyName="System.Text.Json" targetFramework="net6.0" />
+            <frameworkAssembly assemblyName="System.Threading.Tasks" targetFramework="netstandard2.0" />
+        </frameworkAssemblies>
+
+        <!-- Version specific metadata -->
+        <version>1.2.0</version>
+        <releaseNotes>Added asynchronous methods and .netStandard2.0 library</releaseNotes>
+    </metadata>
+
+    <files>
+        <file src="README.md" target="docs\" />
+
+        <file src="bin\Release\**\*.dll" target="lib" exclude="bin\Release\**\ref\*" />
+    </files>
+</package>

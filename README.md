@@ -20,4 +20,15 @@ After including the library, using it is as simple as this:
     string currentIPv6 = SeeIP.GetIP.IPv6();
     IPAddress currentIPv6 = SeeIP.GetIP.IPv6().AsIPAddress();
     
-    string currentIPLocation = SeeIP.GetIP.GeoInfo();
+    SeeIP.Models.GeoInformation currentIPLocation = SeeIP.GetIP.GeoInfo();
+
+
+for asynchronous operation use:
+
+    string currentIPv4 = SeeIP.GetIP.IPv4Async();
+    IPAddress currentIPv4 = SeeIP.GetIP.IPv4Async().AsIPAddress();
+
+    string currentIPv6 = SeeIP.GetIP.IPv6Async();
+    IPAddress currentIPv6 = SeeIP.GetIP.IPv6Async().AsIPAddress();
+    
+    SeeIP.Models.GeoInformation currentIPLocation = SeeIP.GetIP.GeoInfoAsync();
